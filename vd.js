@@ -186,7 +186,7 @@ var settings = {
       var t = -Math.PI;
       var point = to(t);
       context.moveTo(point.x, point.y);
-      while (t < Math.PI) {
+      while (t < Math.PI+Math.PI) {
         t += 0.3; 
         point = to(t);
         context.lineTo(point.x, point.y);
